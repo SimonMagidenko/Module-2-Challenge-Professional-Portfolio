@@ -1,5 +1,5 @@
 :root {
-  --gray: #b7b7c2;
+  --gray: #dddde6;
   --blue: #374460;
   --dark: black;
 }
@@ -9,6 +9,9 @@
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: var(--gray);
   height: 90px;
   width: auto;
@@ -29,14 +32,77 @@
   justify-content: flex-end;
   background-color: var(--gray);
   padding-right: 30px;
+  text-decoration: underline;
+  text-decoration-color: var(--blue);
+  text-decoration-thickness: 4px;
 }
 
 .main {
   display: grid;
   grid-template-columns: 1fr 3fr;
+  line-height: 1.5;
+}
+
+.main section {
+  padding-bottom: 50px;
+  padding-top: 20px;
 }
 
 .sectiontitle {
   font-weight: bolder;
-  font-size: 50px;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+#selfImage {
+  position: relative;
+  padding: 10px;
+  max-width: 300px;
+  margin-right: 20px;
+}
+
+#profileImage {
+  background: rgb(222, 221, 237);
+  background: linear-gradient(
+    180deg,
+    rgba(222, 221, 237, 1) 4%,
+    rgba(112, 129, 167, 0.6656702898550725) 74%
+  );
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  margin-left: 19px;
+}
+
+.ContactInfo {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 50px;
+}
+
+.ContactInfo a {
+  text-decoration: none;
+  color: black;
+}
+
+#linebreak1 {
+  background-color: var(--blue);
+  width: 4px;
+  height: 23%;
+  position: absolute;
+  left: 230px;
+  top: 460px;
+}
+
+#linebreak2 {
+  background-color: var(--blue);
+  width: 4px;
+  height: 14%;
+  position: absolute;
+  left: 230px;
+  bottom: 220px;
 }
