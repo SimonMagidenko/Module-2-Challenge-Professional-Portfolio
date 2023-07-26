@@ -5,15 +5,6 @@
 In this project, I created my first professional portfolio. I wanted to create a landing page where other developers and potential employers can come and see my work. I solved a big problem which is disorganization. I was able to organization my contact information, projects, and descriptions into one webpage where users may visit and learn all about me!
 I learned many new topics while creating this professional portfolio and I will continue to improve this as my knowledge of programming grows larger!
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
 ## Usage
 
 ![Screenshot of Simon's Portfolio](./Assets/Images/Webpage.png)
