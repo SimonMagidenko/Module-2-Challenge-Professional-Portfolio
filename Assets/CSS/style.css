@@ -8,6 +8,10 @@
   font-family: sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -105,7 +109,16 @@
   height: 32%;
 }
 
-#sectiontitle {
+#AboutMe {
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: right;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-left: none;
+}
+
+#MyWorkTitle {
   font-weight: bolder;
   font-size: 30px;
   text-align: right;
@@ -136,7 +149,7 @@ footer {
   background-color: var(--gray);
 }
 
-.ContactInfo {
+#ContactInfo {
   display: flex;
   flex-direction: flex-end;
   justify-content: space-around;
@@ -145,12 +158,8 @@ footer {
   left: 200px;
 }
 
-.ContactInfo a {
+#ContactInfo a {
   text-decoration: none;
   color: black;
   margin-left: 30;
-}
-
-.myWork div:hover {
-  background-color: yellow;
 }
