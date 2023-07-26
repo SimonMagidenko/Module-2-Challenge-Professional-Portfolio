@@ -170,11 +170,20 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
-  .project1, .project2, .project3, .project4, .project5 {
+  .project1,
+  .project2,
+  .project3,
+  .project4,
+  .project5 {
     width: 50%;
   }
-
-  @media screen and (max-width: 768px) {
-    .project1, .project2, .project3, .project4, .project5 {
-      width: 100%;
-    }
+}
+@media screen and (max-width: 768px) {
+  .project1,
+  .project2,
+  .project3,
+  .project4,
+  .project5 {
+    width: 100%;
+  }
+}
