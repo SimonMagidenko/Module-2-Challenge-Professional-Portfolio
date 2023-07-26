@@ -16,7 +16,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Usage
 
-![Screenshot of Simon's Portfolio](./assets/images/Webpage%20Screenpage.png)
+![Screenshot of Simon's Portfolio](./Assets/Images/Webpage.png)
 
 1. Clone the repository using the 'git clone' followed by 'https://github.com/SimonMagidenko/Module-2-Challenge-Professional-Portfolio.git'
 2. Open the index.html file
